@@ -27,11 +27,11 @@ const pinnerSchema = new mongoose.Schema(
       required: true,
     },
     long: {
-        type: Number,
-        required: true,
-      },
+      type: Number,
+      required: true,
+    },
   },
   { timestamps: true }
 );
 
-export default mongoose.model("pinner", pinnerSchema)
+export default mongoose.model("pinner", pinnerSchema);
